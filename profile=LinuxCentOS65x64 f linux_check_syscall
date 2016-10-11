@@ -1,0 +1,627 @@
+start cmd: sudo vol.py --profile=LinuxCentOS65x64 -f /lab/CentOS.raw linux_check_syscall 2016-10-11 11:02:02.445766
+end cmd: sudo vol.py --profile=LinuxCentOS65x64 -f /lab/CentOS.raw linux_check_syscall 2016-10-11 15:05:03.556154
+use time: 4:03:01.110388
+Table Name Index System Call              Handler Address    Symbol                                                      
+---------- ----- ------------------------ ------------------ ------------------------------------------------------------
+64bit          0                          0xffffffff81189860 HOOKED: UNKNOWN                                             
+64bit          1                          0xffffffff811898f0 HOOKED: UNKNOWN                                             
+64bit          2                          0xffffffff81185ef0 HOOKED: UNKNOWN                                             
+64bit          3                          0xffffffff81185c90 HOOKED: UNKNOWN                                             
+64bit          4                          0xffffffff8118ec40 HOOKED: UNKNOWN                                             
+64bit          5                          0xffffffff8118ed40 HOOKED: UNKNOWN                                             
+64bit          6                          0xffffffff8118eb80 HOOKED: UNKNOWN                                             
+64bit          7                          0xffffffff811a07a0 HOOKED: UNKNOWN                                             
+64bit          8                          0xffffffff81189240 HOOKED: UNKNOWN                                             
+64bit          9                          0xffffffff81012250 sys_mmap                                                    
+64bit         10                          0xffffffff811522b0 HOOKED: UNKNOWN                                             
+64bit         11                          0xffffffff81150a70 HOOKED: UNKNOWN                                             
+64bit         12                          0xffffffff81150e40 HOOKED: UNKNOWN                                             
+64bit         13                          0xffffffff81089510 HOOKED: UNKNOWN                                             
+64bit         14                          0xffffffff8108a6b0 HOOKED: UNKNOWN                                             
+64bit         15                          0xffffffff8100b520 stub_rt_sigreturn                                           
+64bit         16                          0xffffffff8119e2b0 HOOKED: UNKNOWN                                             
+64bit         17                          0xffffffff81189a20 HOOKED: UNKNOWN                                             
+64bit         18                          0xffffffff81189980 HOOKED: UNKNOWN                                             
+64bit         19                          0xffffffff81189fa0 fs_may_remount_ro                                           
+64bit         20                          0xffffffff81189dd0 HOOKED: UNKNOWN                                             
+64bit         21                          0xffffffff81186e60 HOOKED: UNKNOWN                                             
+64bit         22                          0xffffffff81193a00 HOOKED: UNKNOWN                                             
+64bit         23                          0xffffffff811a1490 HOOKED: UNKNOWN                                             
+64bit         24                          0xffffffff810688e0 sys_sched_yield                                             
+64bit         25                          0xffffffff81153620 HOOKED: UNKNOWN                                             
+64bit         26                          0xffffffff81153890 HOOKED: UNKNOWN                                             
+64bit         27                          0xffffffff8114bec0 HOOKED: UNKNOWN                                             
+64bit         28                          0xffffffff81144a90 HOOKED: UNKNOWN                                             
+64bit         29                          0xffffffff81218370 HOOKED: UNKNOWN                                             
+64bit         30                          0xffffffff81219760 HOOKED: UNKNOWN                                             
+64bit         31                          0xffffffff81218a70 HOOKED: UNKNOWN                                             
+64bit         32                          0xffffffff8119d790 HOOKED: UNKNOWN                                             
+64bit         33                          0xffffffff8119d990 HOOKED: UNKNOWN                                             
+64bit         34                          0xffffffff810890f0 HOOKED: UNKNOWN                                             
+64bit         35                          0xffffffff810a06c0 HOOKED: UNKNOWN                                             
+64bit         36                          0xffffffff81078380 sys_getitimer                                               
+64bit         37                          0xffffffff81084290 HOOKED: UNKNOWN                                             
+64bit         38                          0xffffffff81077fd0 sys_setitimer                                               
+64bit         39                          0xffffffff81084260 HOOKED: UNKNOWN                                             
+64bit         40                          0xffffffff811894b0 HOOKED: UNKNOWN                                             
+64bit         41                          0xffffffff81447b20 HOOKED: UNKNOWN                                             
+64bit         42                          0xffffffff81448c00 HOOKED: UNKNOWN                                             
+64bit         43                          0xffffffff814493e0 HOOKED: UNKNOWN                                             
+64bit         44                          0xffffffff81448450 HOOKED: UNKNOWN                                             
+64bit         45                          0xffffffff81449fb0 HOOKED: UNKNOWN                                             
+64bit         46                          0xffffffff81449c40 HOOKED: UNKNOWN                                             
+64bit         47                          0xffffffff814489a0 HOOKED: UNKNOWN                                             
+64bit         48                          0xffffffff81448cf0 HOOKED: UNKNOWN                                             
+64bit         49                          0xffffffff81448d70 HOOKED: UNKNOWN                                             
+64bit         50                          0xffffffff81448600 HOOKED: UNKNOWN                                             
+64bit         51                          0xffffffff81448a30 HOOKED: UNKNOWN                                             
+64bit         52                          0xffffffff81449400 HOOKED: UNKNOWN                                             
+64bit         53                          0xffffffff81447950 HOOKED: UNKNOWN                                             
+64bit         54                          0xffffffff81449050 HOOKED: UNKNOWN                                             
+64bit         55                          0xffffffff81448b30 HOOKED: UNKNOWN                                             
+64bit         56                          0xffffffff8100b380 stub_clone                                                  
+64bit         57                          0xffffffff8100b3a0 stub_fork                                                   
+64bit         58                          0xffffffff8100b3c0 stub_vfork                                                  
+64bit         59                          0xffffffff8100b460 stub_execve                                                 
+64bit         60                          0xffffffff81077720 sys_exit                                                    
+64bit         61                          0xffffffff81076530 sys_wait4                                                   
+64bit         62                          0xffffffff8108b800 HOOKED: UNKNOWN                                             
+64bit         63                          0xffffffff810121a0 sys_uname                                                   
+64bit         64                          0xffffffff812160b0 HOOKED: UNKNOWN                                             
+64bit         65                          0xffffffff81217810 HOOKED: UNKNOWN                                             
+64bit         66                          0xffffffff81216f30 HOOKED: UNKNOWN                                             
+64bit         67                          0xffffffff812180d0 HOOKED: UNKNOWN                                             
+64bit         68                          0xffffffff81214e00 HOOKED: UNKNOWN                                             
+64bit         69                          0xffffffff81214c80 HOOKED: UNKNOWN                                             
+64bit         70                          0xffffffff81214860 HOOKED: UNKNOWN                                             
+64bit         71                          0xffffffff81215360 HOOKED: UNKNOWN                                             
+64bit         72                          0xffffffff8119d260 HOOKED: UNKNOWN                                             
+64bit         73                          0xffffffff811d9c60 HOOKED: UNKNOWN                                             
+64bit         74                          0xffffffff811bac80 HOOKED: UNKNOWN                                             
+64bit         75                          0xffffffff811bac60 HOOKED: UNKNOWN                                             
+64bit         76                          0xffffffff811872e0 HOOKED: UNKNOWN                                             
+64bit         77                          0xffffffff811873c0 HOOKED: UNKNOWN                                             
+64bit         78                          0xffffffff8119f1c0 HOOKED: UNKNOWN                                             
+64bit         79                          0xffffffff811a2d60 HOOKED: UNKNOWN                                             
+64bit         80                          0xffffffff81186b40 HOOKED: UNKNOWN                                             
+64bit         81                          0xffffffff81186aa0 HOOKED: UNKNOWN                                             
+64bit         82                          0xffffffff8119a670 HOOKED: UNKNOWN                                             
+64bit         83                          0xffffffff8119ad10 HOOKED: UNKNOWN                                             
+64bit         84                          0xffffffff8119ab40 HOOKED: UNKNOWN                                             
+64bit         85                          0xffffffff81185f20 HOOKED: UNKNOWN                                             
+64bit         86                          0xffffffff8119b500 HOOKED: UNKNOWN                                             
+64bit         87                          0xffffffff8119a8f0 HOOKED: UNKNOWN                                             
+64bit         88                          0xffffffff8119b200 HOOKED: UNKNOWN                                             
+64bit         89                          0xffffffff8118e780 HOOKED: UNKNOWN                                             
+64bit         90                          0xffffffff81186980 HOOKED: UNKNOWN                                             
+64bit         91                          0xffffffff811865b0 HOOKED: UNKNOWN                                             
+64bit         92                          0xffffffff811867f0 HOOKED: UNKNOWN                                             
+64bit         93                          0xffffffff811864f0 HOOKED: UNKNOWN                                             
+64bit         94                          0xffffffff811867c0 HOOKED: UNKNOWN                                             
+64bit         95                          0xffffffff8108d3f0 HOOKED: UNKNOWN                                             
+64bit         96                          0xffffffff81079510 sys_gettimeofday                                            
+64bit         97                          0xffffffff810917e0 HOOKED: UNKNOWN                                             
+64bit         98                          0xffffffff81091490 HOOKED: UNKNOWN                                             
+64bit         99                          0xffffffff81084060 HOOKED: UNKNOWN                                             
+64bit        100                          0xffffffff81092040 HOOKED: UNKNOWN                                             
+64bit        101                          0xffffffff8107ffd0 HOOKED: UNKNOWN                                             
+64bit        102                          0xffffffff81080650 round_jiffies_up_relative                                   
+64bit        103                          0xffffffff81073a80 sys_syslog                                                  
+64bit        104                          0xffffffff81080690 sys_geteuid                                                 
+64bit        105                          0xffffffff81092840 HOOKED: UNKNOWN                                             
+64bit        106                          0xffffffff810922d0 HOOKED: UNKNOWN                                             
+64bit        107                          0xffffffff81080670 sys_getuid                                                  
+64bit        108                          0xffffffff810806b0 sys_getgid                                                  
+64bit        109                          0xffffffff81091da0 HOOKED: UNKNOWN                                             
+64bit        110                          0xffffffff81084230 HOOKED: UNKNOWN                                             
+64bit        111                          0xffffffff81091d80 HOOKED: UNKNOWN                                             
+64bit        112                          0xffffffff81091ba0 HOOKED: UNKNOWN                                             
+64bit        113                          0xffffffff81092940 HOOKED: UNKNOWN                                             
+64bit        114                          0xffffffff810923b0 HOOKED: UNKNOWN                                             
+64bit        115                          0xffffffff810a4690 HOOKED: UNKNOWN                                             
+64bit        116                          0xffffffff810a4ad0 HOOKED: UNKNOWN                                             
+64bit        117                          0xffffffff810926c0 HOOKED: UNKNOWN                                             
+64bit        118                          0xffffffff81090dc0 HOOKED: UNKNOWN                                             
+64bit        119                          0xffffffff81092190 HOOKED: UNKNOWN                                             
+64bit        120                          0xffffffff81090d20 HOOKED: UNKNOWN                                             
+64bit        121                          0xffffffff81091d00 HOOKED: UNKNOWN                                             
+64bit        122                          0xffffffff81092500 HOOKED: UNKNOWN                                             
+64bit        123                          0xffffffff810920b0 HOOKED: UNKNOWN                                             
+64bit        124                          0xffffffff81091c80 HOOKED: UNKNOWN                                             
+64bit        125                          0xffffffff8107f9c0 sys_capget                                                  
+64bit        126                          0xffffffff8107f820 sys_capset                                                  
+64bit        127                          0xffffffff81089200 sys_sigpending                                              
+64bit        128                          0xffffffff8108cbe0 HOOKED: UNKNOWN                                             
+64bit        129                          0xffffffff8108b660 HOOKED: UNKNOWN                                             
+64bit        130                          0xffffffff8108a2c0 HOOKED: UNKNOWN                                             
+64bit        131                          0xffffffff8100b3e0 stub_sigaltstack                                            
+64bit        132                          0xffffffff811bbc90 HOOKED: UNKNOWN                                             
+64bit        133                          0xffffffff8119b030 HOOKED: UNKNOWN                                             
+64bit        134                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        135                          0xffffffff810719a0 sys_personality                                             
+64bit        136                          0xffffffff811bced0 HOOKED: UNKNOWN                                             
+64bit        137                          0xffffffff811bd2b0 HOOKED: UNKNOWN                                             
+64bit        138                          0xffffffff811bd140 HOOKED: UNKNOWN                                             
+64bit        139                          0xffffffff811a8a90 HOOKED: UNKNOWN                                             
+64bit        140                          0xffffffff81092fd0 HOOKED: UNKNOWN                                             
+64bit        141                          0xffffffff810932b0 HOOKED: UNKNOWN                                             
+64bit        142                          0xffffffff8106de60 sys_sched_setparam                                          
+64bit        143                          0xffffffff8105d910 sys_sched_getparam                                          
+64bit        144                          0xffffffff8106de80 sys_sched_setscheduler                                      
+64bit        145                          0xffffffff8105d990 sys_sched_getscheduler                                      
+64bit        146                          0xffffffff81054960 sys_sched_get_priority_max                                  
+64bit        147                          0xffffffff81054990 sys_sched_get_priority_min                                  
+64bit        148                          0xffffffff8105d840 sys_sched_rr_get_interval                                   
+64bit        149                          0xffffffff8114d9f0 HOOKED: UNKNOWN                                             
+64bit        150                          0xffffffff8114d960 HOOKED: UNKNOWN                                             
+64bit        151                          0xffffffff8114d780 HOOKED: UNKNOWN                                             
+64bit        152                          0xffffffff8114d720 HOOKED: UNKNOWN                                             
+64bit        153                          0xffffffff81185aa0 fd_install                                                  
+64bit        154                          0xffffffff81010ab0 sys_modify_ldt                                              
+64bit        155                          0xffffffff811aa050 HOOKED: UNKNOWN                                             
+64bit        156                          0xffffffff8107e170 sys_sysctl                                                  
+64bit        157                          0xffffffff81090e60 HOOKED: UNKNOWN                                             
+64bit        158                          0xffffffff81009490 sys_arch_prctl                                              
+64bit        159                          0xffffffff810792d0 sys_adjtimex                                                
+64bit        160                          0xffffffff81091680 HOOKED: UNKNOWN                                             
+64bit        161                          0xffffffff811869a0 HOOKED: UNKNOWN                                             
+64bit        162                          0xffffffff811baf60 HOOKED: UNKNOWN                                             
+64bit        163                          0xffffffff810c50d0 HOOKED: UNKNOWN                                             
+64bit        164                          0xffffffff81079460 sys_settimeofday                                            
+64bit        165                          0xffffffff811ad050 HOOKED: UNKNOWN                                             
+64bit        166                          0xffffffff811ab650 HOOKED: UNKNOWN                                             
+64bit        167                          0xffffffff8115c7b0 HOOKED: UNKNOWN                                             
+64bit        168                          0xffffffff8115f4f0 HOOKED: UNKNOWN                                             
+64bit        169                          0xffffffff81092d70 HOOKED: UNKNOWN                                             
+64bit        170                          0xffffffff81091990 HOOKED: UNKNOWN                                             
+64bit        171                          0xffffffff81091890 HOOKED: UNKNOWN                                             
+64bit        172                          0xffffffff8100b400 stub_iopl                                                   
+64bit        173                          0xffffffff81010450 sys_ioperm                                                  
+64bit        174                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        175                          0xffffffff810bc440 HOOKED: UNKNOWN                                             
+64bit        176                          0xffffffff810b92b0 HOOKED: UNKNOWN                                             
+64bit        177                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        178                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        179                          0xffffffff811f0670 HOOKED: UNKNOWN                                             
+64bit        180                          0xffffffff811e16c0 HOOKED: UNKNOWN                                             
+64bit        181                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        182                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        183                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        184                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        185                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        186                          0xffffffff810840b0 HOOKED: UNKNOWN                                             
+64bit        187                          0xffffffff8111f2d0 HOOKED: UNKNOWN                                             
+64bit        188                          0xffffffff811b0f30 HOOKED: UNKNOWN                                             
+64bit        189                          0xffffffff811b0e50 HOOKED: UNKNOWN                                             
+64bit        190                          0xffffffff811b0d80 sys_lsetxattr                                               
+64bit        191                          0xffffffff811b0770 HOOKED: UNKNOWN                                             
+64bit        192                          0xffffffff811b06f0 HOOKED: UNKNOWN                                             
+64bit        193                          0xffffffff811b08c0 HOOKED: UNKNOWN                                             
+64bit        194                          0xffffffff811b0370 HOOKED: UNKNOWN                                             
+64bit        195                          0xffffffff811b02e0 HOOKED: UNKNOWN                                             
+64bit        196                          0xffffffff811b0970 HOOKED: UNKNOWN                                             
+64bit        197                          0xffffffff811b0090 vfs_listxattr                                               
+64bit        198                          0xffffffff811affd0 HOOKED: UNKNOWN                                             
+64bit        199                          0xffffffff811b0810 HOOKED: UNKNOWN                                             
+64bit        200                          0xffffffff8108b480 HOOKED: UNKNOWN                                             
+64bit        201                          0xffffffff81079610 sys_time                                                    
+64bit        202                          0xffffffff810b1b80 HOOKED: UNKNOWN                                             
+64bit        203                          0xffffffff8106e3a0 sys_sched_setaffinity                                       
+64bit        204                          0xffffffff810649b0 sys_sched_getaffinity                                       
+64bit        205                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        206                          0xffffffff811d7210 HOOKED: UNKNOWN                                             
+64bit        207                          0xffffffff811d71b0 HOOKED: UNKNOWN                                             
+64bit        208                          0xffffffff811d7980 HOOKED: UNKNOWN                                             
+64bit        209                          0xffffffff811d84b0 HOOKED: UNKNOWN                                             
+64bit        210                          0xffffffff811d7790 HOOKED: UNKNOWN                                             
+64bit        211                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        212                          0xffffffff81208510 HOOKED: UNKNOWN                                             
+64bit        213                          0xffffffff811d1520 HOOKED: UNKNOWN                                             
+64bit        214                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        215                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        216                          0xffffffff81144370 HOOKED: UNKNOWN                                             
+64bit        217                          0xffffffff8119f0e0 HOOKED: UNKNOWN                                             
+64bit        218                          0xffffffff8106edf0 sys_set_tid_address                                         
+64bit        219                          0xffffffff81086770 HOOKED: UNKNOWN                                             
+64bit        220                          0xffffffff81216fd0 HOOKED: UNKNOWN                                             
+64bit        221                          0xffffffff81123870 HOOKED: UNKNOWN                                             
+64bit        222                          0xffffffff8109a4d0 HOOKED: UNKNOWN                                             
+64bit        223                          0xffffffff8109a1b0 HOOKED: UNKNOWN                                             
+64bit        224                          0xffffffff8109a3b0 HOOKED: UNKNOWN                                             
+64bit        225                          0xffffffff8109a370 HOOKED: UNKNOWN                                             
+64bit        226                          0xffffffff8109a030 HOOKED: UNKNOWN                                             
+64bit        227                          0xffffffff81099bd0 HOOKED: UNKNOWN                                             
+64bit        228                          0xffffffff81099e50 HOOKED: UNKNOWN                                             
+64bit        229                          0xffffffff81099c90 HOOKED: UNKNOWN                                             
+64bit        230                          0xffffffff81099ad0 HOOKED: UNKNOWN                                             
+64bit        231                          0xffffffff81077700 sys_exit_group                                              
+64bit        232                          0xffffffff811d1a30 HOOKED: UNKNOWN                                             
+64bit        233                          0xffffffff811d1d00 HOOKED: UNKNOWN                                             
+64bit        234                          0xffffffff8108b4b0 HOOKED: UNKNOWN                                             
+64bit        235                          0xffffffff811bbbe0 HOOKED: UNKNOWN                                             
+64bit        236                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        237                          0xffffffff811686b0 HOOKED: UNKNOWN                                             
+64bit        238                          0xffffffff811680d0 HOOKED: UNKNOWN                                             
+64bit        239                          0xffffffff811658a0 HOOKED: UNKNOWN                                             
+64bit        240                          0xffffffff8121cb10 HOOKED: UNKNOWN                                             
+64bit        241                          0xffffffff8121be70 HOOKED: UNKNOWN                                             
+64bit        242                          0xffffffff8121c790 HOOKED: UNKNOWN                                             
+64bit        243                          0xffffffff8121c290 HOOKED: UNKNOWN                                             
+64bit        244                          0xffffffff8121b640 HOOKED: UNKNOWN                                             
+64bit        245                          0xffffffff8121b430 HOOKED: UNKNOWN                                             
+64bit        246                          0xffffffff810c68d0 HOOKED: UNKNOWN                                             
+64bit        247                          0xffffffff81076650 sys_waitid                                                  
+64bit        248                          0xffffffff812223c0 HOOKED: UNKNOWN                                             
+64bit        249                          0xffffffff81221d80 HOOKED: UNKNOWN                                             
+64bit        250                          0xffffffff81222230 HOOKED: UNKNOWN                                             
+64bit        251                          0xffffffff811caaf0 HOOKED: UNKNOWN                                             
+64bit        252                          0xffffffff811ca6e0 HOOKED: UNKNOWN                                             
+64bit        253                          0xffffffff811cff40 HOOKED: UNKNOWN                                             
+64bit        254                          0xffffffff811cf940 HOOKED: UNKNOWN                                             
+64bit        255                          0xffffffff811cf780 HOOKED: UNKNOWN                                             
+64bit        256                          0xffffffff811675f0 HOOKED: UNKNOWN                                             
+64bit        257                          0xffffffff81185ed0 HOOKED: UNKNOWN                                             
+64bit        258                          0xffffffff8119ab60 HOOKED: UNKNOWN                                             
+64bit        259                          0xffffffff8119ad30 HOOKED: UNKNOWN                                             
+64bit        260                          0xffffffff811866e0 HOOKED: UNKNOWN                                             
+64bit        261                          0xffffffff811bbb30 sys_utimensat                                               
+64bit        262                          0xffffffff8118eb10 HOOKED: UNKNOWN                                             
+64bit        263                          0xffffffff8119ab00 HOOKED: UNKNOWN                                             
+64bit        264                          0xffffffff8119a2d0 HOOKED: UNKNOWN                                             
+64bit        265                          0xffffffff8119b2c0 HOOKED: UNKNOWN                                             
+64bit        266                          0xffffffff8119b050 HOOKED: UNKNOWN                                             
+64bit        267                          0xffffffff8118e660 HOOKED: UNKNOWN                                             
+64bit        268                          0xffffffff81186810 HOOKED: UNKNOWN                                             
+64bit        269                          0xffffffff81186c30 HOOKED: UNKNOWN                                             
+64bit        270                          0xffffffff811a1280 HOOKED: UNKNOWN                                             
+64bit        271                          0xffffffff811a0620 HOOKED: UNKNOWN                                             
+64bit        272                          0xffffffff8106e9a0 sys_unshare                                                 
+64bit        273                          0xffffffff810ae700 HOOKED: UNKNOWN                                             
+64bit        274                          0xffffffff810aed10 HOOKED: UNKNOWN                                             
+64bit        275                          0xffffffff811b8f20 HOOKED: UNKNOWN                                             
+64bit        276                          0xffffffff811b9d20 HOOKED: UNKNOWN                                             
+64bit        277                          0xffffffff811ba960 HOOKED: UNKNOWN                                             
+64bit        278                          0xffffffff811b94f0 HOOKED: UNKNOWN                                             
+64bit        279                          0xffffffff81174f30 HOOKED: UNKNOWN                                             
+64bit        280                          0xffffffff811bbc00 HOOKED: UNKNOWN                                             
+64bit        281                          0xffffffff811d1b10 HOOKED: UNKNOWN                                             
+64bit        282                          0xffffffff811d3220 HOOKED: UNKNOWN                                             
+64bit        283                          0xffffffff811d3dd0 HOOKED: UNKNOWN                                             
+64bit        284                          0xffffffff811d4d40 eventfd_ctx_get                                             
+64bit        285                          0xffffffff81186fe0 HOOKED: UNKNOWN                                             
+64bit        286                          0xffffffff811d3940 HOOKED: UNKNOWN                                             
+64bit        287                          0xffffffff811d3eb0 HOOKED: UNKNOWN                                             
+64bit        288                          0xffffffff81449130 HOOKED: UNKNOWN                                             
+64bit        289                          0xffffffff811d30a0 HOOKED: UNKNOWN                                             
+64bit        290                          0xffffffff811d4cc0 HOOKED: UNKNOWN                                             
+64bit        291                          0xffffffff811d13b0 HOOKED: UNKNOWN                                             
+64bit        292                          0xffffffff8119d800 HOOKED: UNKNOWN                                             
+64bit        293                          0xffffffff81193980 HOOKED: UNKNOWN                                             
+64bit        294                          0xffffffff811cfd90 HOOKED: UNKNOWN                                             
+64bit        295                          0xffffffff81189ee0 HOOKED: UNKNOWN                                             
+64bit        296                          0xffffffff81189d10 HOOKED: UNKNOWN                                             
+64bit        297                          0xffffffff8108b360 HOOKED: UNKNOWN                                             
+64bit        298                          0xffffffff8111d460 HOOKED: UNKNOWN                                             
+64bit        299                          0xffffffff814488d0 HOOKED: UNKNOWN                                             
+64bit        300                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        301                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        302                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        303                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        304                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        305                          0xffffffff81099d50 HOOKED: UNKNOWN                                             
+64bit        306                          0xffffffff811bb010 HOOKED: UNKNOWN                                             
+64bit        307                          0xffffffff81449c20 HOOKED: UNKNOWN                                             
+64bit        308                          0xffffffff810a0cb0 HOOKED: UNKNOWN                                             
+64bit        309                          0xffffffff8109c700 HOOKED: UNKNOWN                                             
+64bit        310                          0xffffffff8115ac80 HOOKED: UNKNOWN                                             
+32bit          0                          0xffffffff81086770 HOOKED: UNKNOWN                                             
+32bit          1                          0xffffffff81077720 sys_exit                                                    
+32bit          2                          0xffffffff8105118f stub32_fork                                                 
+32bit          3                          0xffffffff81189860 HOOKED: UNKNOWN                                             
+32bit          4                          0xffffffff811898f0 HOOKED: UNKNOWN                                             
+32bit          5                          0xffffffff811dc9a0 HOOKED: UNKNOWN                                             
+32bit          6                          0xffffffff81185c90 HOOKED: UNKNOWN                                             
+32bit          7                          0xffffffff81051b80 sys32_waitpid                                               
+32bit          8                          0xffffffff81185f20 HOOKED: UNKNOWN                                             
+32bit          9                          0xffffffff8119b500 HOOKED: UNKNOWN                                             
+32bit         10                          0xffffffff8119a8f0 HOOKED: UNKNOWN                                             
+32bit         11                          0xffffffff8105117e stub32_execve                                               
+32bit         12                          0xffffffff81186b40 HOOKED: UNKNOWN                                             
+32bit         13                          0xffffffff810c7d30 HOOKED: UNKNOWN                                             
+32bit         14                          0xffffffff8119b030 HOOKED: UNKNOWN                                             
+32bit         15                          0xffffffff81186980 HOOKED: UNKNOWN                                             
+32bit         16                          0xffffffff810b6480 HOOKED: UNKNOWN                                             
+32bit         17                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit         18                          0xffffffff8118ec90 HOOKED: UNKNOWN                                             
+32bit         19                          0xffffffff810513d0 sys32_lseek                                                 
+32bit         20                          0xffffffff81084260 HOOKED: UNKNOWN                                             
+32bit         21                          0xffffffff811dce10 HOOKED: UNKNOWN                                             
+32bit         22                          0xffffffff811ab9f0 HOOKED: UNKNOWN                                             
+32bit         23                          0xffffffff810b6390 HOOKED: UNKNOWN                                             
+32bit         24                          0xffffffff810b3a30 HOOKED: UNKNOWN                                             
+32bit         25                          0xffffffff810c7cc0 HOOKED: UNKNOWN                                             
+32bit         26                          0xffffffff8107fe40 compat_sys_ptrace                                           
+32bit         27                          0xffffffff81084290 HOOKED: UNKNOWN                                             
+32bit         28                          0xffffffff8118ed80 HOOKED: UNKNOWN                                             
+32bit         29                          0xffffffff810890f0 HOOKED: UNKNOWN                                             
+32bit         30                          0xffffffff811ddd50 HOOKED: UNKNOWN                                             
+32bit         31                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit         32                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit         33                          0xffffffff81186e60 HOOKED: UNKNOWN                                             
+32bit         34                          0xffffffff8105da50 sys_nice                                                    
+32bit         35                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit         36                          0xffffffff811baf60 HOOKED: UNKNOWN                                             
+32bit         37                          0xffffffff810513c0 sys32_kill                                                  
+32bit         38                          0xffffffff8119a670 HOOKED: UNKNOWN                                             
+32bit         39                          0xffffffff8119ad10 HOOKED: UNKNOWN                                             
+32bit         40                          0xffffffff8119ab40 HOOKED: UNKNOWN                                             
+32bit         41                          0xffffffff8119d790 HOOKED: UNKNOWN                                             
+32bit         42                          0xffffffff81193a00 HOOKED: UNKNOWN                                             
+32bit         43                          0xffffffff810c8f40 HOOKED: UNKNOWN                                             
+32bit         44                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit         45                          0xffffffff81150e40 HOOKED: UNKNOWN                                             
+32bit         46                          0xffffffff810b63f0 HOOKED: UNKNOWN                                             
+32bit         47                          0xffffffff810b3ab0 HOOKED: UNKNOWN                                             
+32bit         48                          0xffffffff810894d0 HOOKED: UNKNOWN                                             
+32bit         49                          0xffffffff810b3a70 HOOKED: UNKNOWN                                             
+32bit         50                          0xffffffff810b3af0 HOOKED: UNKNOWN                                             
+32bit         51                          0xffffffff810c50d0 HOOKED: UNKNOWN                                             
+32bit         52                          0xffffffff811ab650 HOOKED: UNKNOWN                                             
+32bit         53                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit         54                          0xffffffff811e0be0 HOOKED: UNKNOWN                                             
+32bit         55                          0xffffffff811dd330 HOOKED: UNKNOWN                                             
+32bit         56                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit         57                          0xffffffff81091da0 HOOKED: UNKNOWN                                             
+32bit         58                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit         59                          0xffffffff810521d0 sys32_olduname                                              
+32bit         60                          0xffffffff8108d3f0 HOOKED: UNKNOWN                                             
+32bit         61                          0xffffffff811869a0 HOOKED: UNKNOWN                                             
+32bit         62                          0xffffffff811dd670 compat_sys_fstatfs64                                        
+32bit         63                          0xffffffff8119d990 HOOKED: UNKNOWN                                             
+32bit         64                          0xffffffff81084230 HOOKED: UNKNOWN                                             
+32bit         65                          0xffffffff81091d80 HOOKED: UNKNOWN                                             
+32bit         66                          0xffffffff81091ba0 HOOKED: UNKNOWN                                             
+32bit         67                          0xffffffff81051d20 sys32_sigaction                                             
+32bit         68                          0xffffffff810867c0 do_no_restart_syscall                                       
+32bit         69                          0xffffffff8108a3a0 HOOKED: UNKNOWN                                             
+32bit         70                          0xffffffff810b63c0 HOOKED: UNKNOWN                                             
+32bit         71                          0xffffffff810b6420 HOOKED: UNKNOWN                                             
+32bit         72                          0xffffffff81052b60 sys32_sigsuspend                                            
+32bit         73                          0xffffffff810c8e90 HOOKED: UNKNOWN                                             
+32bit         74                          0xffffffff81091990 HOOKED: UNKNOWN                                             
+32bit         75                          0xffffffff810c8cf0 HOOKED: UNKNOWN                                             
+32bit         76                          0xffffffff810c8c10 HOOKED: UNKNOWN                                             
+32bit         77                          0xffffffff810c8ab0 HOOKED: UNKNOWN                                             
+32bit         78                          0xffffffff810c7d90 HOOKED: UNKNOWN                                             
+32bit         79                          0xffffffff810c93c0 HOOKED: UNKNOWN                                             
+32bit         80                          0xffffffff810b6000 HOOKED: UNKNOWN                                             
+32bit         81                          0xffffffff810b5ed0 HOOKED: UNKNOWN                                             
+32bit         82                          0xffffffff81051ba0 sys32_old_select                                            
+32bit         83                          0xffffffff8119b200 HOOKED: UNKNOWN                                             
+32bit         84                          0xffffffff8118ebd0 HOOKED: UNKNOWN                                             
+32bit         85                          0xffffffff8118e780 HOOKED: UNKNOWN                                             
+32bit         86                          0xffffffff81191cc0 HOOKED: UNKNOWN                                             
+32bit         87                          0xffffffff8115c7b0 HOOKED: UNKNOWN                                             
+32bit         88                          0xffffffff81092d70 HOOKED: UNKNOWN                                             
+32bit         89                          0xffffffff811dcca0 HOOKED: UNKNOWN                                             
+32bit         90                          0xffffffff81051e60 sys32_mmap                                                  
+32bit         91                          0xffffffff81150a70 HOOKED: UNKNOWN                                             
+32bit         92                          0xffffffff811872e0 HOOKED: UNKNOWN                                             
+32bit         93                          0xffffffff811873c0 HOOKED: UNKNOWN                                             
+32bit         94                          0xffffffff811865b0 HOOKED: UNKNOWN                                             
+32bit         95                          0xffffffff810b6450 HOOKED: UNKNOWN                                             
+32bit         96                          0xffffffff81092fd0 HOOKED: UNKNOWN                                             
+32bit         97                          0xffffffff810932b0 HOOKED: UNKNOWN                                             
+32bit         98                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit         99                          0xffffffff811dd870 HOOKED: UNKNOWN                                             
+32bit        100                          0xffffffff811dd7b0 HOOKED: UNKNOWN                                             
+32bit        101                          0xffffffff81010450 sys_ioperm                                                  
+32bit        102                          0xffffffff81479fd0 HOOKED: UNKNOWN                                             
+32bit        103                          0xffffffff81073a80 sys_syslog                                                  
+32bit        104                          0xffffffff810c8ff0 HOOKED: UNKNOWN                                             
+32bit        105                          0xffffffff810c9140 HOOKED: UNKNOWN                                             
+32bit        106                          0xffffffff811ddb50 HOOKED: UNKNOWN                                             
+32bit        107                          0xffffffff811ddb00 HOOKED: UNKNOWN                                             
+32bit        108                          0xffffffff811dda70 HOOKED: UNKNOWN                                             
+32bit        109                          0xffffffff810515f0 sys32_uname                                                 
+32bit        110                          0xffffffff810511c2 stub32_iopl                                                 
+32bit        111                          0xffffffff81185aa0 fd_install                                                  
+32bit        112                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        113                          0xffffffff81051350 sys32_vm86_warning                                          
+32bit        114                          0xffffffff810c89d0 HOOKED: UNKNOWN                                             
+32bit        115                          0xffffffff8115f4f0 HOOKED: UNKNOWN                                             
+32bit        116                          0xffffffff810c7630 HOOKED: UNKNOWN                                             
+32bit        117                          0xffffffff81053170 sys32_ipc                                                   
+32bit        118                          0xffffffff811bac80 HOOKED: UNKNOWN                                             
+32bit        119                          0xffffffff8105115c stub32_sigreturn                                            
+32bit        120                          0xffffffff810511a0 stub32_clone                                                
+32bit        121                          0xffffffff81091890 HOOKED: UNKNOWN                                             
+32bit        122                          0xffffffff810121a0 sys_uname                                                   
+32bit        123                          0xffffffff81010ab0 sys_modify_ldt                                              
+32bit        124                          0xffffffff810c7bd0 HOOKED: UNKNOWN                                             
+32bit        125                          0xffffffff81051e50 sys32_mprotect                                              
+32bit        126                          0xffffffff810c8dc0 HOOKED: UNKNOWN                                             
+32bit        127                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        128                          0xffffffff810bc440 HOOKED: UNKNOWN                                             
+32bit        129                          0xffffffff810b92b0 HOOKED: UNKNOWN                                             
+32bit        130                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        131                          0xffffffff811f0a80 HOOKED: UNKNOWN                                             
+32bit        132                          0xffffffff81091d00 HOOKED: UNKNOWN                                             
+32bit        133                          0xffffffff81186aa0 HOOKED: UNKNOWN                                             
+32bit        134                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        135                          0xffffffff811a8a90 HOOKED: UNKNOWN                                             
+32bit        136                          0xffffffff810719a0 sys_personality                                             
+32bit        137                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        138                          0xffffffff810b62e0 HOOKED: UNKNOWN                                             
+32bit        139                          0xffffffff810b62b0 HOOKED: UNKNOWN                                             
+32bit        140                          0xffffffff81189600 HOOKED: UNKNOWN                                             
+32bit        141                          0xffffffff811dcbb0 HOOKED: UNKNOWN                                             
+32bit        142                          0xffffffff811dc660 HOOKED: UNKNOWN                                             
+32bit        143                          0xffffffff811d9c60 HOOKED: UNKNOWN                                             
+32bit        144                          0xffffffff81153890 HOOKED: UNKNOWN                                             
+32bit        145                          0xffffffff811de650 HOOKED: UNKNOWN                                             
+32bit        146                          0xffffffff811de4c0 HOOKED: UNKNOWN                                             
+32bit        147                          0xffffffff81091c80 HOOKED: UNKNOWN                                             
+32bit        148                          0xffffffff811bac60 HOOKED: UNKNOWN                                             
+32bit        149                          0xffffffff81051820 sys32_sysctl                                                
+32bit        150                          0xffffffff8114d9f0 HOOKED: UNKNOWN                                             
+32bit        151                          0xffffffff8114d960 HOOKED: UNKNOWN                                             
+32bit        152                          0xffffffff8114d780 HOOKED: UNKNOWN                                             
+32bit        153                          0xffffffff8114d720 HOOKED: UNKNOWN                                             
+32bit        154                          0xffffffff8106de60 sys_sched_setparam                                          
+32bit        155                          0xffffffff8105d910 sys_sched_getparam                                          
+32bit        156                          0xffffffff8106de80 sys_sched_setscheduler                                      
+32bit        157                          0xffffffff8105d990 sys_sched_getscheduler                                      
+32bit        158                          0xffffffff810688e0 sys_sched_yield                                             
+32bit        159                          0xffffffff81054960 sys_sched_get_priority_max                                  
+32bit        160                          0xffffffff81054990 sys_sched_get_priority_min                                  
+32bit        161                          0xffffffff81051ad0 sys32_sched_rr_get_interval                                 
+32bit        162                          0xffffffff810c91e0 HOOKED: UNKNOWN                                             
+32bit        163                          0xffffffff81153620 HOOKED: UNKNOWN                                             
+32bit        164                          0xffffffff810b6350 HOOKED: UNKNOWN                                             
+32bit        165                          0xffffffff810b61e0 HOOKED: UNKNOWN                                             
+32bit        166                          0xffffffff81051350 sys32_vm86_warning                                          
+32bit        167                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        168                          0xffffffff811a07a0 HOOKED: UNKNOWN                                             
+32bit        169                          0xffffffff811db9b0 HOOKED: UNKNOWN                                             
+32bit        170                          0xffffffff810b6310 HOOKED: UNKNOWN                                             
+32bit        171                          0xffffffff810b6110 HOOKED: UNKNOWN                                             
+32bit        172                          0xffffffff81090e60 HOOKED: UNKNOWN                                             
+32bit        173                          0xffffffff8105114b stub32_rt_sigreturn                                         
+32bit        174                          0xffffffff81052020 sys32_rt_sigaction                                          
+32bit        175                          0xffffffff81051c10 sys32_rt_sigprocmask                                        
+32bit        176                          0xffffffff81051a20 sys32_rt_sigpending                                         
+32bit        177                          0xffffffff810c7ea0 HOOKED: UNKNOWN                                             
+32bit        178                          0xffffffff81051980 sys32_rt_sigqueueinfo                                       
+32bit        179                          0xffffffff8108a2c0 HOOKED: UNKNOWN                                             
+32bit        180                          0xffffffff81051800 sys32_pread                                                 
+32bit        181                          0xffffffff810517e0 sys32_pwrite                                                
+32bit        182                          0xffffffff810b64b0 HOOKED: UNKNOWN                                             
+32bit        183                          0xffffffff811a2d60 HOOKED: UNKNOWN                                             
+32bit        184                          0xffffffff8107f9c0 sys_capget                                                  
+32bit        185                          0xffffffff8107f820 sys_capset                                                  
+32bit        186                          0xffffffff8105116d stub32_sigaltstack                                          
+32bit        187                          0xffffffff810516b0 sys32_sendfile                                              
+32bit        188                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        189                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        190                          0xffffffff810511b1 stub32_vfork                                                
+32bit        191                          0xffffffff810c8b40 HOOKED: UNKNOWN                                             
+32bit        192                          0xffffffff81140a40 HOOKED: UNKNOWN                                             
+32bit        193                          0xffffffff81052000 sys32_truncate64                                            
+32bit        194                          0xffffffff81051fe0 sys32_ftruncate64                                           
+32bit        195                          0xffffffff81051fa0 sys32_stat64                                                
+32bit        196                          0xffffffff81051f60 sys32_lstat64                                               
+32bit        197                          0xffffffff81051f20 sys32_fstat64                                               
+32bit        198                          0xffffffff811867c0 HOOKED: UNKNOWN                                             
+32bit        199                          0xffffffff81080650 round_jiffies_up_relative                                   
+32bit        200                          0xffffffff81080690 sys_geteuid                                                 
+32bit        201                          0xffffffff81080670 sys_getuid                                                  
+32bit        202                          0xffffffff810806b0 sys_getgid                                                  
+32bit        203                          0xffffffff81092940 HOOKED: UNKNOWN                                             
+32bit        204                          0xffffffff810923b0 HOOKED: UNKNOWN                                             
+32bit        205                          0xffffffff810a4690 HOOKED: UNKNOWN                                             
+32bit        206                          0xffffffff810a4ad0 HOOKED: UNKNOWN                                             
+32bit        207                          0xffffffff811864f0 HOOKED: UNKNOWN                                             
+32bit        208                          0xffffffff810926c0 HOOKED: UNKNOWN                                             
+32bit        209                          0xffffffff81090dc0 HOOKED: UNKNOWN                                             
+32bit        210                          0xffffffff81092190 HOOKED: UNKNOWN                                             
+32bit        211                          0xffffffff81090d20 HOOKED: UNKNOWN                                             
+32bit        212                          0xffffffff811867f0 HOOKED: UNKNOWN                                             
+32bit        213                          0xffffffff81092840 HOOKED: UNKNOWN                                             
+32bit        214                          0xffffffff810922d0 HOOKED: UNKNOWN                                             
+32bit        215                          0xffffffff81092500 HOOKED: UNKNOWN                                             
+32bit        216                          0xffffffff810920b0 HOOKED: UNKNOWN                                             
+32bit        217                          0xffffffff811aa050 HOOKED: UNKNOWN                                             
+32bit        218                          0xffffffff8114bec0 HOOKED: UNKNOWN                                             
+32bit        219                          0xffffffff81144a90 HOOKED: UNKNOWN                                             
+32bit        220                          0xffffffff811dcad0 HOOKED: UNKNOWN                                             
+32bit        221                          0xffffffff811dd330 HOOKED: UNKNOWN                                             
+32bit        222                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        223                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        224                          0xffffffff810840b0 HOOKED: UNKNOWN                                             
+32bit        225                          0xffffffff810512f0 sys32_readahead                                             
+32bit        226                          0xffffffff811b0f30 HOOKED: UNKNOWN                                             
+32bit        227                          0xffffffff811b0e50 HOOKED: UNKNOWN                                             
+32bit        228                          0xffffffff811b0d80 sys_lsetxattr                                               
+32bit        229                          0xffffffff811b0770 HOOKED: UNKNOWN                                             
+32bit        230                          0xffffffff811b06f0 HOOKED: UNKNOWN                                             
+32bit        231                          0xffffffff811b08c0 HOOKED: UNKNOWN                                             
+32bit        232                          0xffffffff811b0370 HOOKED: UNKNOWN                                             
+32bit        233                          0xffffffff811b02e0 HOOKED: UNKNOWN                                             
+32bit        234                          0xffffffff811b0970 HOOKED: UNKNOWN                                             
+32bit        235                          0xffffffff811b0090 vfs_listxattr                                               
+32bit        236                          0xffffffff811affd0 HOOKED: UNKNOWN                                             
+32bit        237                          0xffffffff811b0810 HOOKED: UNKNOWN                                             
+32bit        238                          0xffffffff8108b480 HOOKED: UNKNOWN                                             
+32bit        239                          0xffffffff811894b0 HOOKED: UNKNOWN                                             
+32bit        240                          0xffffffff810b1cf0 HOOKED: UNKNOWN                                             
+32bit        241                          0xffffffff810c8830 HOOKED: UNKNOWN                                             
+32bit        242                          0xffffffff810c8760 HOOKED: UNKNOWN                                             
+32bit        243                          0xffffffff8101aa10 sys_set_thread_area                                         
+32bit        244                          0xffffffff8101a8d0 sys_get_thread_area                                         
+32bit        245                          0xffffffff811dd290 HOOKED: UNKNOWN                                             
+32bit        246                          0xffffffff811d71b0 HOOKED: UNKNOWN                                             
+32bit        247                          0xffffffff811dd1c0 compat_sys_io_setup                                         
+32bit        248                          0xffffffff811dd0c0 HOOKED: UNKNOWN                                             
+32bit        249                          0xffffffff811d7790 HOOKED: UNKNOWN                                             
+32bit        250                          0xffffffff81051260 sys32_fadvise64                                             
+32bit        251                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        252                          0xffffffff81077700 sys_exit_group                                              
+32bit        253                          0xffffffff81051320 sys32_lookup_dcookie                                        
+32bit        254                          0xffffffff811d1520 HOOKED: UNKNOWN                                             
+32bit        255                          0xffffffff811d1d00 HOOKED: UNKNOWN                                             
+32bit        256                          0xffffffff811d1a30 HOOKED: UNKNOWN                                             
+32bit        257                          0xffffffff81144370 HOOKED: UNKNOWN                                             
+32bit        258                          0xffffffff8106edf0 sys_set_tid_address                                         
+32bit        259                          0xffffffff810c86c0 HOOKED: UNKNOWN                                             
+32bit        260                          0xffffffff810c85e0 HOOKED: UNKNOWN                                             
+32bit        261                          0xffffffff810c8540 HOOKED: UNKNOWN                                             
+32bit        262                          0xffffffff8109a370 HOOKED: UNKNOWN                                             
+32bit        263                          0xffffffff8109a030 HOOKED: UNKNOWN                                             
+32bit        264                          0xffffffff810c84c0 HOOKED: UNKNOWN                                             
+32bit        265                          0xffffffff810c8420 HOOKED: UNKNOWN                                             
+32bit        266                          0xffffffff810c82e0 HOOKED: UNKNOWN                                             
+32bit        267                          0xffffffff810c80f0 HOOKED: UNKNOWN                                             
+32bit        268                          0xffffffff811dd800 HOOKED: UNKNOWN                                             
+32bit        269                          0xffffffff811dd740 HOOKED: UNKNOWN                                             
+32bit        270                          0xffffffff8108b4b0 HOOKED: UNKNOWN                                             
+32bit        271                          0xffffffff811ddc90 HOOKED: UNKNOWN                                             
+32bit        272                          0xffffffff81051290 sys32_fadvise64_64                                          
+32bit        273                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        274                          0xffffffff811686b0 HOOKED: UNKNOWN                                             
+32bit        275                          0xffffffff81165d60 HOOKED: UNKNOWN                                             
+32bit        276                          0xffffffff811680d0 HOOKED: UNKNOWN                                             
+32bit        277                          0xffffffff8121d490 HOOKED: UNKNOWN                                             
+32bit        278                          0xffffffff8121be70 HOOKED: UNKNOWN                                             
+32bit        279                          0xffffffff8121d420 HOOKED: UNKNOWN                                             
+32bit        280                          0xffffffff8121d3b0 HOOKED: UNKNOWN                                             
+32bit        281                          0xffffffff8121d290 HOOKED: UNKNOWN                                             
+32bit        282                          0xffffffff8121d0e0 HOOKED: UNKNOWN                                             
+32bit        283                          0xffffffff810c6f00 HOOKED: UNKNOWN                                             
+32bit        284                          0xffffffff810c88e0 HOOKED: UNKNOWN                                             
+32bit        285                          0xffffffff81051143 quiet_ni_syscall                                            
+32bit        286                          0xffffffff812223c0 HOOKED: UNKNOWN                                             
+32bit        287                          0xffffffff81221d80 HOOKED: UNKNOWN                                             
+32bit        288                          0xffffffff81222230 HOOKED: UNKNOWN                                             
+32bit        289                          0xffffffff811caaf0 HOOKED: UNKNOWN                                             
+32bit        290                          0xffffffff811ca6e0 HOOKED: UNKNOWN                                             
+32bit        291                          0xffffffff811cff40 HOOKED: UNKNOWN                                             
+32bit        292                          0xffffffff811cf940 HOOKED: UNKNOWN                                             
+32bit        293                          0xffffffff811cf780 HOOKED: UNKNOWN                                             
+32bit        294                          0xffffffff811675f0 HOOKED: UNKNOWN                                             
+32bit        295                          0xffffffff811dc990 HOOKED: UNKNOWN                                             
+32bit        296                          0xffffffff8119ab60 HOOKED: UNKNOWN                                             
+32bit        297                          0xffffffff8119ad30 HOOKED: UNKNOWN                                             
+32bit        298                          0xffffffff811866e0 HOOKED: UNKNOWN                                             
+32bit        299                          0xffffffff811ddba0 HOOKED: UNKNOWN                                             
+32bit        300                          0xffffffff81051ed0 sys32_fstatat                                               
+32bit        301                          0xffffffff8119ab00 HOOKED: UNKNOWN                                             
+32bit        302                          0xffffffff8119a2d0 HOOKED: UNKNOWN                                             
+32bit        303                          0xffffffff8119b2c0 HOOKED: UNKNOWN                                             
+32bit        304                          0xffffffff8119b050 HOOKED: UNKNOWN                                             
+32bit        305                          0xffffffff8118e660 HOOKED: UNKNOWN                                             
+32bit        306                          0xffffffff81186810 HOOKED: UNKNOWN                                             
+32bit        307                          0xffffffff81186c30 HOOKED: UNKNOWN                                             
+32bit        308                          0xffffffff811dc420 HOOKED: UNKNOWN                                             
+32bit        309                          0xffffffff811dbae0 HOOKED: UNKNOWN                                             
+32bit        310                          0xffffffff8106e9a0 sys_unshare                                                 

@@ -1,0 +1,329 @@
+start cmd: sudo vol.py --profile=LinuxCentOS65x64 -f /lab/CentOS.raw linux_netstat 2016-10-11 11:01:46.652201
+end cmd: sudo vol.py --profile=LinuxCentOS65x64 -f /lab/CentOS.raw linux_netstat 2016-10-11 11:01:54.695760
+use time: 0:00:08.043559
+UNIX 8457                  init/1     
+UNIX 11638                 init/1     
+UNIX 8843                 udevd/395   
+UNIX 8861                 udevd/395   
+UNIX 8862                 udevd/395   
+UNIX 11385             rsyslogd/1166  /dev/log
+UDP      ::              :    0 ::              :    0                           rpcbind/1213 
+UNIX 11540              rpcbind/1213  /var/run/rpcbind.sock
+UDP      0.0.0.0         :  111 0.0.0.0         :    0                           rpcbind/1213 
+UDP      0.0.0.0         :  964 0.0.0.0         :    0                           rpcbind/1213 
+TCP      0.0.0.0         :  111 0.0.0.0         :    0 LISTEN                    rpcbind/1213 
+UDP      ::              :  111 ::              :    0                           rpcbind/1213 
+UDP      ::              :  964 ::              :    0                           rpcbind/1213 
+TCP      ::              :  111 ::              :    0 LISTEN                    rpcbind/1213 
+UNIX 11619          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 11636          dbus-daemon/1228  
+UNIX 11637          dbus-daemon/1228  
+UNIX 11639          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 11672          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 12122          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 11685          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 11972          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 11698          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 14358          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 15114          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 14627          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 14931          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 15179          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 15386          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 15193          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 15405          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 15219          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 15398          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 15507          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 15966          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 15998          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 16186          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 16020          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 16122          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 16147          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 16135          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 16224          dbus-daemon/1228  /var/run/dbus/system_bus_socket
+UNIX 11665       NetworkManager/1239  
+UNIX 11671       NetworkManager/1239  
+UNIX 11684       NetworkManager/1239  
+UNIX 11696        modem-manager/1245  
+UNIX 11697        modem-manager/1245  
+UNIX 11791            rpc.statd/1260  
+UDP      0.0.0.0         : 1012 0.0.0.0         :    0                         rpc.statd/1260 
+UDP      0.0.0.0         :40984 0.0.0.0         :    0                         rpc.statd/1260 
+TCP      0.0.0.0         :58897 0.0.0.0         :    0 LISTEN                  rpc.statd/1260 
+UDP      ::              :57697 ::              :    0                         rpc.statd/1260 
+TCP      ::              :36412 ::              :    0 LISTEN                  rpc.statd/1260 
+UNIX 11933             dhclient/1273  
+UDP      0.0.0.0         :   68 0.0.0.0         :    0                          dhclient/1273 
+UNIX 11971       wpa_supplicant/1289  
+TCP      ::1             :  631 ::              :    0 LISTEN                      cupsd/1294 
+TCP      127.0.0.1       :  631 0.0.0.0         :    0 LISTEN                      cupsd/1294 
+UNIX 12005                cupsd/1294  /var/run/cups/cups.sock
+UDP      0.0.0.0         :  631 0.0.0.0         :    0                             cupsd/1294 
+UNIX 12083                acpid/1319  /var/run/acpid.socket
+UNIX 12511                acpid/1319  /var/run/acpid.socket
+UNIX 12090                acpid/1319  
+UNIX 12120                 hald/1328  
+UNIX 12121                 hald/1328  
+UNIX 12127                 hald/1328  
+UNIX 12154                 hald/1328  
+UNIX 12164                 hald/1328  
+UNIX 12505                 hald/1328  
+UNIX 12501                 hald/1328  
+UNIX 12153          hald-runner/1329  
+UNIX 12467      hald-addon-inpu/1407  
+UNIX 12504      hald-addon-acpi/1410  
+UNIX 12510      hald-addon-acpi/1410  
+UNIX 12648            automount/1441  
+TCP      0.0.0.0         :   22 0.0.0.0         :    0 LISTEN                       sshd/1466 
+TCP      ::              :   22 ::              :    0 LISTEN                       sshd/1466 
+TCP      0.0.0.0         : 3306 0.0.0.0         :    0 LISTEN                     mysqld/1606 
+UNIX 13352               mysqld/1606  /var/lib/mysql/mysql.sock
+UNIX 13529               master/1702  
+TCP      127.0.0.1       :   25 0.0.0.0         :    0 LISTEN                     master/1702 
+TCP      ::1             :   25 ::              :    0 LISTEN                     master/1702 
+UNIX 13566               master/1702  
+UNIX 13567               master/1702  
+UNIX 13569               master/1702  
+UNIX 13570               master/1702  
+UNIX 13571               master/1702  public/cleanup
+UNIX 13573               master/1702  
+UNIX 13574               master/1702  
+UNIX 13576               master/1702  
+UNIX 13577               master/1702  
+UNIX 13578               master/1702  private/tlsmgr
+UNIX 13580               master/1702  
+UNIX 13581               master/1702  
+UNIX 13582               master/1702  private/rewrite
+UNIX 13584               master/1702  
+UNIX 13585               master/1702  
+UNIX 13586               master/1702  private/bounce
+UNIX 13588               master/1702  
+UNIX 13589               master/1702  
+UNIX 13590               master/1702  private/defer
+UNIX 13592               master/1702  
+UNIX 13593               master/1702  
+UNIX 13594               master/1702  private/trace
+UNIX 13596               master/1702  
+UNIX 13597               master/1702  
+UNIX 13598               master/1702  private/verify
+UNIX 13600               master/1702  
+UNIX 13601               master/1702  
+UNIX 13602               master/1702  public/flush
+UNIX 13604               master/1702  
+UNIX 13605               master/1702  
+UNIX 13606               master/1702  private/proxymap
+UNIX 13608               master/1702  
+UNIX 13609               master/1702  
+UNIX 13610               master/1702  private/proxywrite
+UNIX 13612               master/1702  
+UNIX 13613               master/1702  
+UNIX 13614               master/1702  private/smtp
+UNIX 13616               master/1702  
+UNIX 13617               master/1702  
+UNIX 13618               master/1702  private/relay
+UNIX 13620               master/1702  
+UNIX 13621               master/1702  
+UNIX 13622               master/1702  public/showq
+UNIX 13624               master/1702  
+UNIX 13625               master/1702  
+UNIX 13626               master/1702  private/error
+UNIX 13628               master/1702  
+UNIX 13629               master/1702  
+UNIX 13630               master/1702  private/retry
+UNIX 13632               master/1702  
+UNIX 13633               master/1702  
+UNIX 13634               master/1702  private/discard
+UNIX 13636               master/1702  
+UNIX 13637               master/1702  
+UNIX 13638               master/1702  private/local
+UNIX 13640               master/1702  
+UNIX 13641               master/1702  
+UNIX 13642               master/1702  private/virtual
+UNIX 13644               master/1702  
+UNIX 13645               master/1702  
+UNIX 13646               master/1702  private/lmtp
+UNIX 13648               master/1702  
+UNIX 13649               master/1702  
+UNIX 13650               master/1702  private/anvil
+UNIX 13652               master/1702  
+UNIX 13653               master/1702  
+UNIX 13654               master/1702  private/scache
+UNIX 13656               master/1702  
+UNIX 13657               master/1702  
+UNIX 13577                 qmgr/1709  
+UNIX 13675                 qmgr/1709  
+UNIX 13747                abrtd/1726  /var/run/abrt/abrt.socket
+UNIX 13749                abrtd/1726  
+UNIX 13818                crond/1749  
+UNIX 14206             libvirtd/1787  /var/run/libvirt/libvirt-sock
+UNIX 14208             libvirtd/1787  /var/run/libvirt/libvirt-sock-ro
+UNIX 14210             libvirtd/1787  
+UNIX 14357           certmonger/1818  
+UNIX 14626           gdm-binary/1834  
+UNIX 8862                 udevd/1856  
+UNIX 8862                 udevd/1857  
+UNIX 14930      gdm-simple-slav/1882  
+UNIX 15112      gdm-simple-slav/1882  
+UNIX 15177      gdm-simple-slav/1882  
+UNIX 15178      gdm-simple-slav/1882  
+UNIX 15348      gdm-simple-slav/1882  
+UNIX 16076      gdm-simple-slav/1882  
+UNIX 16228      gdm-simple-slav/1882  
+UNIX 14973                 Xorg/1909  
+UNIX 14974                 Xorg/1909  /tmp/.X11-unix/X0
+UNIX 15113                 Xorg/1909  
+UNIX 15121                 Xorg/1909  
+UNIX 15296                 Xorg/1909  
+UNIX 15324                 Xorg/1909  
+UNIX 15352                 Xorg/1909  
+UNIX 15604                 Xorg/1909  
+UNIX 15625                 Xorg/1909  
+UNIX 15744                 Xorg/1909  
+UNIX 15749                 Xorg/1909  
+UNIX 15751                 Xorg/1909  
+UNIX 15761                 Xorg/1909  
+UNIX 15947                 Xorg/1909  
+UNIX 15951                 Xorg/1909  
+UNIX 15957                 Xorg/1909  
+UNIX 15970                 Xorg/1909  
+UNIX 15987                 Xorg/1909  
+UNIX 15996                 Xorg/1909  
+UNIX 16034                 Xorg/1909  
+UNIX 16066                 Xorg/1909  
+UNIX 15192      console-kit-dae/1932  
+UNIX 15218      console-kit-dae/1932  
+UNIX 15295          dbus-launch/2002  
+UNIX 15323          dbus-launch/2002  
+UNIX 15312          dbus-daemon/2003  
+UNIX 15321          dbus-daemon/2003  
+UNIX 15322          dbus-daemon/2003  
+UNIX 15357          dbus-daemon/2003  
+UNIX 15609          dbus-daemon/2003  
+UNIX 15445          dbus-daemon/2003  
+UNIX 15695          dbus-daemon/2003  
+UNIX 15700          dbus-daemon/2003  
+UNIX 15702          dbus-daemon/2003  
+UNIX 15768          dbus-daemon/2003  
+UNIX 15708          dbus-daemon/2003  
+UNIX 15968          dbus-daemon/2003  
+UNIX 16158          dbus-daemon/2003  
+UNIX 16074          dbus-daemon/2003  
+UNIX 16174          dbus-daemon/2003  
+UNIX 16080          dbus-daemon/2003  
+UNIX 16194          dbus-daemon/2003  
+UNIX 15351        gnome-session/2005  
+UNIX 15356        gnome-session/2005  
+UNIX 15374        gnome-session/2005  
+UNIX 15375        gnome-session/2005  /tmp/.ICE-unix/2005
+UNIX 15385        gnome-session/2005  
+UNIX 15513        gnome-session/2005  
+UNIX 15515        gnome-session/2005  /tmp/orbit-gdm/linc-7d5-0-66049d00795cb
+UNIX 15518        gnome-session/2005  /tmp/orbit-gdm/linc-7d5-0-66049d00795cb
+UNIX 15750        gnome-session/2005  
+UNIX 15757        gnome-session/2005  
+UNIX 15765        gnome-session/2005  /tmp/orbit-gdm/linc-7d5-0-66049d00795cb
+UNIX 15775        gnome-session/2005  
+UNIX 15397      devkit-power-da/2008  
+UNIX 15404      devkit-power-da/2008  
+UNIX 15442             gconfd-2/2013  /tmp/orbit-gdm/linc-7dd-0-3f94360d72f6d
+UNIX 15444             gconfd-2/2013  
+UNIX 15506             gconfd-2/2013  
+UNIX 15514             gconfd-2/2013  /tmp/orbit-gdm/linc-7dd-0-3f94360d72f6d
+UNIX 15517             gconfd-2/2013  
+UNIX 15614             gconfd-2/2013  /tmp/orbit-gdm/linc-7dd-0-3f94360d72f6d
+UNIX 15617             gconfd-2/2013  
+UNIX 15771             gconfd-2/2013  /tmp/orbit-gdm/linc-7dd-0-3f94360d72f6d
+UNIX 15772             gconfd-2/2013  
+UNIX 15975             gconfd-2/2013  /tmp/orbit-gdm/linc-7dd-0-3f94360d72f6d
+UNIX 15977             gconfd-2/2013  
+UNIX 16082             gconfd-2/2013  /tmp/orbit-gdm/linc-7dd-0-3f94360d72f6d
+UNIX 16084             gconfd-2/2013  
+UNIX 15624      at-spi-registry/2027  
+UNIX 15690      at-spi-registry/2027  
+UNIX 15691      at-spi-registry/2027  /tmp/orbit-gdm/linc-7eb-0-7b282e998dfe1
+UNIX 15698      at-spi-registry/2027  /tmp/orbit-gdm/linc-7eb-0-7b282e998dfe1
+UNIX 15699      at-spi-registry/2027  
+UNIX 15753      at-spi-registry/2027  /tmp/orbit-gdm/linc-7eb-0-7b282e998dfe1
+UNIX 15756      at-spi-registry/2027  
+UNIX 15758      at-spi-registry/2027  /tmp/orbit-gdm/linc-7eb-0-7b282e998dfe1
+UNIX 15759      at-spi-registry/2027  
+UNIX 15763      at-spi-registry/2027  /tmp/orbit-gdm/linc-7eb-0-7b282e998dfe1
+UNIX 15764      at-spi-registry/2027  
+UNIX 15961      at-spi-registry/2027  /tmp/orbit-gdm/linc-7eb-0-7b282e998dfe1
+UNIX 15964      at-spi-registry/2027  
+UNIX 15989      at-spi-registry/2027  /tmp/orbit-gdm/linc-7eb-0-7b282e998dfe1
+UNIX 15992      at-spi-registry/2027  
+UNIX 16000      at-spi-registry/2027  /tmp/orbit-gdm/linc-7eb-0-7b282e998dfe1
+UNIX 16003      at-spi-registry/2027  
+UNIX 16068      at-spi-registry/2027  /tmp/orbit-gdm/linc-7eb-0-7b282e998dfe1
+UNIX 16071      at-spi-registry/2027  
+UNIX 15603      gnome-settings-/2031  
+UNIX 15760      gnome-settings-/2031  
+UNIX 15608      gnome-settings-/2031  
+UNIX 15613      gnome-settings-/2031  
+UNIX 15615      gnome-settings-/2031  /tmp/orbit-gdm/linc-7ef-0-38c702a3c1022
+UNIX 15618      gnome-settings-/2031  /tmp/orbit-gdm/linc-7ef-0-38c702a3c1022
+UNIX 15701      gnome-settings-/2031  
+UNIX 15762      gnome-settings-/2031  
+UNIX 15766      gnome-settings-/2031  /tmp/orbit-gdm/linc-7ef-0-38c702a3c1022
+UNIX 15694      bonobo-activati/2033  
+UNIX 15697      bonobo-activati/2033  
+UNIX 15687      bonobo-activati/2033  /tmp/orbit-gdm/linc-7f1-0-2eaa94e98dc8f
+UNIX 15693      bonobo-activati/2033  /tmp/orbit-gdm/linc-7f1-0-2eaa94e98dc8f
+UNIX 15707                gvfsd/2040  
+UNIX 15743             metacity/2041  
+UNIX 15748             metacity/2041  
+UNIX 15752             metacity/2041  
+UNIX 15754             metacity/2041  /tmp/orbit-gdm/linc-7f9-0-47dddfc43827
+UNIX 15767             metacity/2041  
+UNIX 15769             metacity/2041  
+UNIX 15770             metacity/2041  /tmp/orbit-gdm/linc-7f9-0-47dddfc43827
+UNIX 15773             metacity/2041  /tmp/orbit-gdm/linc-7f9-0-47dddfc43827
+UNIX 15774             metacity/2041  
+UNIX 16193             metacity/2041  
+UNIX 16019      gdm-simple-gree/2043  
+UNIX 16033      gdm-simple-gree/2043  
+UNIX 16065      gdm-simple-gree/2043  
+UNIX 16067      gdm-simple-gree/2043  
+UNIX 16069      gdm-simple-gree/2043  /tmp/orbit-gdm/linc-7fb-0-d7c2c65d5554
+UNIX 16073      gdm-simple-gree/2043  
+UNIX 16075      gdm-simple-gree/2043  
+UNIX 16079      gdm-simple-gree/2043  
+UNIX 16081      gdm-simple-gree/2043  
+UNIX 16083      gdm-simple-gree/2043  /tmp/orbit-gdm/linc-7fb-0-d7c2c65d5554
+UNIX 16085      gdm-simple-gree/2043  /tmp/orbit-gdm/linc-7fb-0-d7c2c65d5554
+UNIX 15950      polkit-gnome-au/2044  
+UNIX 15986      polkit-gnome-au/2044  
+UNIX 15988      polkit-gnome-au/2044  
+UNIX 15990      polkit-gnome-au/2044  /tmp/orbit-gdm/linc-7fc-0-50d378a5c2abc
+UNIX 15997      polkit-gnome-au/2044  
+UNIX 16156      polkit-gnome-au/2044  /tmp/orbit-gdm/linc-7fc-0-50d378a5c2abc
+UNIX 15946      gnome-power-man/2045  
+UNIX 15956      gnome-power-man/2045  
+UNIX 15960      gnome-power-man/2045  
+UNIX 15962      gnome-power-man/2045  /tmp/orbit-gdm/linc-7fd-0-7bddcb81bd363
+UNIX 15965      gnome-power-man/2045  
+UNIX 15967      gnome-power-man/2045  
+UNIX 15974      gnome-power-man/2045  
+UNIX 15976      gnome-power-man/2045  /tmp/orbit-gdm/linc-7fd-0-7bddcb81bd363
+UNIX 15978      gnome-power-man/2045  /tmp/orbit-gdm/linc-7fd-0-7bddcb81bd363
+UNIX 15969      plymouth-log-vi/2046  
+UNIX 15995      plymouth-log-vi/2046  
+UNIX 15999      plymouth-log-vi/2046  
+UNIX 16001      plymouth-log-vi/2046  /tmp/orbit-gdm/linc-7fe-0-2ba90b8fc38ca
+UNIX 16157      plymouth-log-vi/2046  
+UNIX 16159      plymouth-log-vi/2046  /tmp/orbit-gdm/linc-7fe-0-2ba90b8fc38ca
+UNIX 16146              polkitd/2050  
+UNIX 16155              polkitd/2050  
+UNIX 16121           pulseaudio/2057  
+UNIX 16173           pulseaudio/2057  
+UNIX 16182           pulseaudio/2057  /var/lib/gdm/.pulse/11e80d332b0c61bd28b1e6e80000000c-runtime/native
+UNIX 16185           pulseaudio/2057  
+UNIX 16133         rtkit-daemon/2059  
+UNIX 16134         rtkit-daemon/2059  
+UNIX 16223      gdm-session-wor/2065  
+UNIX 16227      gdm-session-wor/2065  
+UNIX 13570               pickup/22151 
+UNIX 117326              pickup/22151 
