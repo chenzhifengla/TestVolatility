@@ -1,0 +1,11 @@
+start cmd: sudo vol.py --profile=LinuxCentOS65x64 -l vmi://centos6.5 linux_check_tty 2016-10-11 18:39:31.824934
+end cmd: sudo vol.py --profile=LinuxCentOS65x64 -l vmi://centos6.5 linux_check_tty 2016-10-11 18:39:38.645907
+use time: 0:00:06.820973
+Name             Address            Symbol                        
+---------------- ------------------ ------------------------------
+tty1             0xffffffff81337800                               
+tty2             0xffffffff81337800                               
+tty3             0xffffffff81337800                               
+tty4             0xffffffff81337800                               
+tty5             0xffffffff81337800                               
+tty6             0xffffffff81337800                               
